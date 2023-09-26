@@ -31,7 +31,6 @@ enum FlashModeTypeEnum
 {
 	FLASH_MODE_UNKNOWN, MTD, TARBZ2, TARBZ2_MTD
 };
-// TARBZ2, TARBZ2_MTD is also used for xz compressed rootfs
 
 extern enum FlashModeTypeEnum kernel_flash_mode;
 extern enum FlashModeTypeEnum rootfs_flash_mode;
